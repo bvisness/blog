@@ -1,0 +1,41 @@
+.main-header.no-cover {
+    max-height: 25vh;
+}
+
+/* Quotes */
+.tag-quote .post-content {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-left: 60px;
+    position: relative;
+}
+
+.tag-quote .post-content::before {
+    content: '“';
+    font-size: 10em;
+    position: absolute;
+    left: -10px;
+    top: 90px;
+    color: #ddd;
+    z-index: -1;
+}
+
+.tag-quote .quote-attrib {
+    font-style: italic;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.tag-quote .quote-attrib::before {
+    content: '– ';
+}
+
+.tag-quote .post-meta {
+    text-align: center;
+}
+
+.tag-quote .post-meta .post-date {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
